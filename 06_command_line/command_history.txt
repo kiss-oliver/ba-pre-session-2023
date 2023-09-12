@@ -1,0 +1,178 @@
+  499  pwd
+  500  cd /
+  501  cd /
+  502  pwd
+  503  cd
+  504  pwd
+  505  cd /
+  506  ls
+  507  pwd
+  508  cd
+  509  ls
+  510  cd Documents
+  511  pwd
+  512  cd
+  513  pwd
+  514  cd Documents/
+  515  cd ..
+  516  pwd
+  517  cd Documents/
+  518  pwd
+  519  cd /Users/kisso
+  520  pwd
+  521  cd Documents/
+  522  ls
+  523  cd ..
+  524  cd Documents/
+  525  cd ../Documents/../Documents/../Documents
+  526  cd
+  527  cd Downloads/../Documents/
+  528  cd
+  529  cd Documents/
+  530  ls
+  531  mkdir presession
+  532  ls
+  533  cd presession/
+  534  touch data.txt
+  535  ls
+  536  ls -l
+  537  rm data.txt 
+  538  ls
+  539  mkdir random
+  540  ls
+  541  rm random/
+  542  ls
+  543  rmdir random/
+  544  ls
+  545  mkdir random
+  546  ls
+  547  touch random/data.txt
+  548  ls
+  549  ls random/
+  550  rmdir random/
+  551  ls
+  552  rm -r random/
+  553  ls
+  554  nano animals.txt
+  555  ls
+  556  ls -l
+  557  mkdir backup
+  558  ls
+  559  cp animals.txt backup/
+  560  ls
+  561  ls backup/
+  562  cp animals.txt backup/animals_backup.txt
+  563  ls backup/
+  564  cp backup/animals_backup.txt whatever.txt
+  565  ls
+  566  cp animals.txt trick.pdf
+  567  ls
+  568  cp animals.txt other.zip
+  569  ls
+  570  cp backup/ backup_2
+  571  cp -r backup/ backup_2
+  572  ls
+  573  mv whatever.txt backup_2/
+  574  ls
+  575  ls backup_2/
+  576  mv backup_2/whatever.txt .
+  577  ls
+  578  mv backup_2/ backup
+  579  ls
+  580  ls backup/
+  581  mv animals.txt verysecretdocument.txt
+  582  ls
+  583  mv backup/ folder
+  584  ls
+  585  ls
+  586  mv folder backup
+  587  ls
+  588  ls
+  589  ls backup/
+  590  ls
+  591  cp whatever.txt animals.txt
+  592  ls
+  593  nano animals.txt 
+  594  cat animals.txt 
+  595  cat animals.txt animals.txt 
+  596  ls
+  597  ls backup/
+  598  cat backup/animals_backup.txt 
+  599  nano animals_2.txt
+  600  ls
+  601  nano animals_3.txt
+  602  ls
+  603  cd ..
+  604  ls
+  616  cd
+  617  cd Documents/
+  618  ls
+  619  nano Book1.xlsx 
+  620  ls
+  621  cd presession/
+  622  ls
+  623  cat animals.txt animals_2.txt 
+  624  cat animals.txt animals_2.txt > all_animals.txt
+  625  ls
+  626  cat all_animals.txt 
+  627  cat animals* > all_animals.txt 
+  628  cat all_animals.txt 
+  632  cd
+  633  cd Documents/
+  634  cd presession/
+  635  less animals
+  636  less animals.txt 
+  638  vim animals.txt 
+  639  vim animals.txt 
+  640  vim animals.txt 
+  641  vim animals.txt 
+  642  tail animals.txt 
+  643  tail -n2 animals.txt 
+  644  head -n2 animals
+  645  head -n2 animals.txt 
+  646  man ls
+  647  man ls
+  648  ls --help
+  649  man ls
+  650  ls -la
+  651  ls -l
+  652  grep --help
+  653  man grep
+  654  ls
+  655  cat all_animals.txt 
+  656  grep fish all_animals.txt 
+  657  grep pandas all_animals.txt 
+  658  grep e all_animals.txt 
+  659  grep e       all_animals.txt 
+  660  grep "e " all_animals.txt 
+  661  grep "blob fish" all_animals.txt 
+  662  ls
+  663  nano patterns.txt
+  664  grep -f patterns.txt all_animals.txt 
+  665  grep -n fish all_animals.txt 
+  666  nano patterns.txt
+  667  grep -f patterns.txt all_animals.txt 
+  668  nano patterns.txt
+  669  grep -f patterns.txt all_animals.txt 
+  670  ls
+  671  cat all_animals.txt 
+  672  wc all_animals.txt 
+  673  wc -l all_animals.txt 
+  674  wc
+  675  nano zoo.txt
+  676  cat zoo.txt 
+  677  sort zoo.txt 
+  678  sort zoo.txt > sorted_zoo.txt
+  679  locals
+  680  local
+  681  locale
+  682  uniq zoo.txt 
+  683  head -n10 zoo.txt 
+  684  sort zoo.txt | uniq
+  685  sort zoo.txt | uniq -c
+  686  sort zoo.txt | uniq -c > count_of_animals.txt
+  687  sort zoo.txt | uniq -c | sort
+  688  sort zoo.txt | uniq -c | sort | wc -l
+  689  sort zoo.txt | uniq -c | sort | grep lion
+  690  history
+  691  history > command_history.txt
