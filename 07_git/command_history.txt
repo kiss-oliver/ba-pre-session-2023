@@ -1,0 +1,141 @@
+  353  mkdir project_zoo
+  354  cd project_zoo/
+  355  ls
+  356  git init
+  357  ls
+  358  ls -a
+  359  nano animals.txt
+  360  ls
+  361  git status
+  362  git add animals.txt 
+  363  git status
+  364  git commit -m "start a list with animals"
+  365  git config --global user.name "Oliver Kiss"
+  366  git commit --amend --reset-author
+  367  git log
+  368  git status
+  369  nano animals.txt 
+  370  git status
+  371  git add animals.txt 
+  372  git status
+  373  git commit -m "add new animals to animals.txt"
+  374  git log
+  375  git status
+  376  nano animals.txt
+  377  git status
+  378  git add animals.txt 
+  379  git status
+  380  git commit -m "add further animals to the list of animals"
+  381  git log
+  382  cat animals.txt 
+  383  nano mammals.txt
+  384  git status
+  385  nano animals.txt 
+  386  git status
+  387  git add animals.txt 
+  388  git status
+  389  git add mammals.txt 
+  390  git status
+  391  git commit -m "start a separate list for mammals"
+  392  git log
+  393  cat animals.txt 
+  394  nano birds.txt
+  395  nano animals.txt 
+  396  git stauts
+  397  git status
+  398  nano mammals.txt 
+  399  git status
+  400  git add animals.txt 
+  401  git add birds.txt 
+  402  git status
+  403  git commit -m "start a separate list for birds"
+  404  git status
+  405  git add mammals.txt 
+  406  git commit -m "collect additional mammals"
+  407  git log
+  408  git log --oneline
+  409  python3
+  410  git log --oneline
+  411  git checkout 1158acd -- mammals.txt
+  412  git status
+  413  cat animals.txt 
+  414  cat mammals.txt 
+  415  git status
+  416  git restore --staged mammals.txt 
+  417  git status
+  418  git checkout --help
+  419  git status
+  420  git add mammals.txt 
+  421  git commit -m "restore previous list of mammals from 1158acd"
+  422  git log --oneline
+  423  git checkout 89123de
+  424  git log --oneline
+  425  ls
+  426  git switch -
+  427  git log --oneline
+  428  cd
+  432  cd Documents/presession/project_zoo/
+  433  git status
+  434  ls
+  435  nano birds.txt 
+  436  git status
+  437  git add birds.txt 
+  438  git commit -m "add parrot to the list of birds"
+  439  nano animals.txt 
+  440  git status
+  441  git add animals.txt 
+  442  git commit -m "add snake to the list of animals"
+  443  git log --oneline
+  444  git revert 1cb55f1
+  445  ssh-keygen
+  451  git remote add origin git@github.com:kiss-oliver/project-zoo.git
+  452  git branch -M main
+  453  git push -u origin main
+  454  git log --oneline
+  455  git fetch
+  456  git status
+  457  git pull
+  458  git log --oneline
+  459  cat birds.txt 
+  460  git status
+  461  ls
+  462  nano animals.txt 
+  463  git status
+  464  git add animals.txt 
+  465  git commit -m "add bearded dragon to the list of animals"
+  466  git status
+  467  git push
+  468  git status
+  469  cd ..
+  470  git clone git@github.com:kiss-oliver/collab.git
+  471  nano story.txt
+  472  git status
+  473  cd collab/
+  474  mv ../story.txt .
+  475  ls
+  476  git status
+  477  git add story.txt 
+  478  git commit -m "start writing a story"
+  479  git push
+  480  git status
+  481  git fetch
+  482  git status
+  483  git pull
+  484  nano story.txt 
+  485  git status
+  486  git add story.txt 
+  487  git commit -m "discuss living conditions of horse"
+  488  git push
+  489  git pull
+  490  git config pull.rebase false
+  491  git pull
+  492  git status
+  493  nano story.txt 
+  494  git status
+  495  git add story.txt 
+  496  git status
+  497  git commit -m "Clearing up the mess caused by person B"
+  498  git status
+  499  git push
+  500  git commit --help
+
